@@ -1,0 +1,108 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"additionalProperties": false,
+	"properties": {
+		"$schema": {
+			"const": "./$schema.json",
+			"type": "string"
+		},
+		"links": {
+			"items": {
+				"additionalItems": false,
+				"oneOf": [
+					{
+						"properties": {
+							"type": {
+								"const": "wiki",
+								"type": "string"
+							},
+							"url": {
+								"type": "string"
+							}
+						},
+						"required": ["type", "url"],
+						"type": "object"
+					}
+				]
+			},
+			"type": "array"
+		},
+		"locations": {
+			"items": {
+				"additionalProperties": false,
+				"properties": {
+					"$id": {
+						"type": "string"
+					},
+					"coordinates": {
+						"additionalProperties": false,
+						"properties": {
+							"x": {
+								"type": "number"
+							},
+							"y": {
+								"type": "number"
+							},
+							"z": {
+								"type": "number"
+							}
+						},
+						"required": ["x", "y", "z"],
+						"type": "object"
+					},
+					"type": {
+						"const": "npc",
+						"type": "string"
+					}
+				},
+				"required": ["$id", "coordinates", "type"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"name": {
+			"additionalProperties": false,
+			"properties": {
+				"en-US": {
+					"type": "string"
+				}
+			},
+			"required": ["en-US"],
+			"type": "object"
+		},
+		"warps": {
+			"items": {
+				"additionalProperties": false,
+				"properties": {
+					"commands": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"coordinates": {
+						"additionalProperties": false,
+						"properties": {
+							"x": {
+								"type": "number"
+							},
+							"y": {
+								"type": "number"
+							},
+							"z": {
+								"type": "number"
+							}
+						},
+						"required": ["x", "y", "z"],
+						"type": "object"
+					}
+				},
+				"required": ["commands", "coordinates"],
+				"type": "object"
+			},
+			"type": "array"
+		}
+	},
+	"required": ["$schema", "locations", "name", "warps"],
+	"type": "object"
+}
