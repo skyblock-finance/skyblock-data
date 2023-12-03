@@ -1,0 +1,309 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{
+					"amount": 20,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "WHITE_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "WHITE_GIFT_TALISMAN",
+					"amount": 40,
+					"type": "item"
+				},
+				{
+					"amount": 40,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "GREEN_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "GREEN_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"amount": 60,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "BLUE_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "BLUE_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"amount": 100,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "PURPLE_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "PURPLE_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"$id": "GOLD_GIFT",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"amount": 200,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "GOLD_GIFT_TALISMAN",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 60,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "REINDEER",
+					"amount": 1,
+					"rarity": "legendary",
+					"type": "pet",
+					"xp": 0
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "SNOW_CLOAK",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "SNOW_BELT",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "SNOW_GLOVES",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "SNOW_NECKLACE",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "ICE_GENERATOR_11",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"$id": "ENCHANTED_ICE",
+					"amount": 1024,
+					"type": "item"
+				},
+				{
+					"amount": 1000000,
+					"type": "coin"
+				},
+				{
+					"amount": 300,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "ICE_GENERATOR_12",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "SNOW_GENERATOR_11",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"$id": "ENCHANTED_SNOW_BLOCK",
+					"amount": 1024,
+					"type": "item"
+				},
+				{
+					"amount": 2000000,
+					"type": "coin"
+				},
+				{
+					"amount": 500,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "SNOW_GENERATOR_12",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "VOLCANIC_ROCK",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "VOLCANIC_ROCK",
+					"amount": 10,
+					"type": "item"
+				},
+				{
+					"amount": 500,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "MAGIC_TOP_HAT",
+					"amount": 1,
+					"type": "item"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"$id": "VOLCANIC_ROCK",
+					"amount": 1,
+					"type": "item"
+				},
+				{
+					"amount": 10,
+					"type": "north-star"
+				}
+			],
+			"outputs": [
+				{
+					"$id": "WINTER_FRAGMENT",
+					"amount": 2,
+					"type": "item"
+				}
+			]
+		}
+	],
+	"links": [
+		{
+			"type": "wiki",
+			"url": "https://wiki.hypixel.net/Einary"
+		}
+	],
+	"name": {
+		"en-US": "Einary’s Emporium"
+	}
+}

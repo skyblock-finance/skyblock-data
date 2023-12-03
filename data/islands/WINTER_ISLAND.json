@@ -1,0 +1,33 @@
+{
+	"$schema": "./$schema.json",
+	"links": [
+		{
+			"type": "wiki",
+			"url": "https://wiki.hypixel.net/Winter_Island"
+		}
+	],
+	"locations": [
+		{
+			"$id": "EINARY",
+			"coordinates": {
+				"x": -17,
+				"y": 76,
+				"z": 63
+			},
+			"type": "npc"
+		}
+	],
+	"name": {
+		"en-US": "Winter Island"
+	},
+	"warps": [
+		{
+			"commands": ["/savethejerrys", "/warp jerry", "/warp winter"],
+			"coordinates": {
+				"x": -5,
+				"y": 76,
+				"z": 100
+			}
+		}
+	]
+}

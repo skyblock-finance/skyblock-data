@@ -1,0 +1,10 @@
+{
+	"$schema": "./$schema.json",
+	"ids": {
+		"cofl": "PET_REINDEER"
+	},
+	"name": {
+		"en-US": "Reindeer"
+	},
+	"rarities": ["legendary"]
+}
